@@ -13,63 +13,115 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Sidebar starts -->
-
-    Maison Soleil
-
-    <!-- Guest navigation -->
-    Your stay 1 The house Around town Breakfast Messages
-
-    <!-- Local weather -->
-    Today in Cassis 27° Sunny · light breeze Est. 1987 Maison Soleil · 12 Rue
-    des Oliviers · Cassis © 2026 Maison Soleil
-
-    <!-- Sidebar ends -->
-
-    <!-- Main content starts -->
-
-    Booking · Confirmed Bienvenue, Lucia. Print receipt Add to calendar
-
-    <!-- Booking cards start -->
-
-    <!-- Receipt card -->
-    Receipt № MS-2026 0421-AH Your stay Check in 25 Apr Saturday · 15:00 Check
-    out 29 Apr Wednesday · 11:00 Room · La Garrigue · 4 nights € 620.00
-    Breakfast · 2 guests € 96.00 Tourist tax € 14.40 Total paid € 730.40 Paid ·
-    Wise · GBP
-    <!-- Barcode image -->
-
-    <!-- Note from host card -->
-    Welcome A note from your host, Margaux. We're so glad you're coming. The
-    shutters will be open, the lemonade cold, and the cat - Poivre - pretending
-    not to notice you. Room La Garrigue
-
-    <!-- Booking cards end -->
-
-    <!-- Guest info row starts -->
-
-    <!-- Arrival -->
-    Arrival 01 Check-in from 15:00 Sat, 25 April Ring the brass bell by the blue
-    door. If we're at the market, the key is in the terracotta pot by the olive
-    tree.
-
-    <!-- Wifi -->
-    Wifi 02 Le Soleil · Guest Password below Network Le Soleil · Guest Password
-    soleil-2026 Copy
-
-    <!-- Breakfast -->
-    Breakfast 03 Served 8 - 10:30 On the terrace Fresh figs, Marseille honey,
-    pain au levain, and espresso. Gluten-free option? Leave a note the night
-    before.
-
-    <!-- Guest info row ends -->
-
-    <!-- Main content ends -->
-
+    <header>
+      <nav>
+        <img src="./assets/images/logo.svg" alt="" />
+        <img src="./assets/images/icon-menu.svg" alt="" /><img
+          src="./assets/images/icon-close.svg"
+          alt=""
+        />
+        <ul>
+          <li>
+            <img src="./assets/images/icon-bed.svg" alt="" />Your stay
+            <span>1</span>
+          </li>
+          <li><img src="./assets/images/icon-house.svg" alt="" />The house</li>
+          <li><img src="./assets/images/icon-pin.svg" alt="" />Around town</li>
+          <li>
+            <img
+              src="./assets/images/icon-breakfast-outline.svg"
+              alt=""
+            />Breakfast
+          </li>
+          <li><img src="./assets/images/icon-mail.svg" alt="" />Messages</li>
+        </ul>
+        <div>
+          <img src="./assets/images/icon-weather.svg" alt="" />
+          <p>TODAY IN CASSIS</p>
+          <data value="27">27°</data>
+          <p>Sunny · light breeze</p>
+        </div>
+        <p>EST. 1987</p>
+        <p>MAISON SOLEIL · 12 RUE DES OLIVIERS · CASSIS</p>
+        <p>© 2026 MAISON SOLEIL</p>
+      </nav>
+    </header>
+    <main>
+      <p>Booking · Confirmed</p>
+      <p>Bienvenue, <span>Lucia.</span></p>
+      <button>Print receipt</button> <button>Add to calendar</button>
+      <section class="receipt">
+        <div><span>RECEIPT</span> <span>№ MS-2026</span></div>
+        <div>
+          <p>Your stay</p>
+          <span>0421-AH</span>
+        </div>
+        <div>
+          <p>Check in</p>
+          <p>Check out</p>
+        </div>
+        <div><date>25 Apr</date> <date>29 Apr</date></div>
+        <div><date>Saturday · 15:00</date> <date>Wednesday · 11:00</date></div>
+        <div>Room · La Garrigue · 4 nights € 620.00</div>
+        <div>Breakfast · 2 guests € 96.00</div>
+        <div>Tourist tax € 14.40</div>
+        <div>TOTAL PAID € 730.40</div>
+        <div>
+          PAID · WISE · GBP
+          <img src="./assets/images/icon-barcode.svg" alt="" />
+        </div>
+      </section>
+      <section class="note">
+        <p>WELCOME CARD</p>
+        <img src="./assets/images/icon-sun.svg" alt="" />
+        <p>A note from your host, <span>Margaux.</span></p>
+        <p>
+          We're so glad you're coming. The shutters will be open, the lemonade
+          cold, and the cat - Poivre - pretending not to notice you.
+        </p>
+        <p>ROOM</p>
+        <p>La Garrigue</p>
+      </section>
+      <section class="arrival">
+        <img src="./assets/images/icon-key.svg" alt="" />
+        <div>ARRIVAL <span>01</span></div>
+        <p>Check-in from 15:00</p>
+        <time>Sat, 25 April</time>
+        <p>
+          Ring the brass bell by the blue door. If we're at the market, the key
+          is in the terracotta pot by the olive tree.
+        </p>
+      </section>
+      <section class="wifi">
+        <img src="./assets/images/icon-wifi.svg" alt="" />
+        <div>WIFI <span>02</span></div>
+        <p>Le Soleil · Guest</p>
+        <p>Password below</p>
+        <div class="network"><span>NETWORK</span> Le Soleil · Guest</div>
+        <div class="pass">
+          <span>PASSWORD</span>
+          <div>soleil-2026</div>
+          <button type="button">COPY</button>
+        </div>
+      </section>
+      <section class="breakfast">
+        <img src="./assets/images/icon-breakfast.svg" alt="" />
+        <div>BREAKFAST <span>03</span></div>
+        <p>Served 8 - 10:30</p>
+        <p>On the terrace</p>
+        <p>
+          Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free
+          option? Leave a note the night before.
+        </p>
+      </section>
+    </main>
     <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a
+        >.
+      </p>
+      <p>Coded by <a href="#">Ziad Mohamed</a>.</p>
     </footer>
   </body>
 </html>
