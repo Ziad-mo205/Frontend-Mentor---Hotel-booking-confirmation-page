@@ -16,35 +16,33 @@
     <header>
       <nav>
         <img src="./assets/images/logo.svg" alt="" />
-        <button>
-          <img src="./assets/images/icon-menu.svg" alt="" />
-        </button>
-        <button><img src="./assets/images/icon-close.svg" alt="" /></button>
-        <ul>
-          <li>
-            <img src="./assets/images/icon-bed.svg" alt="" />Your stay
-            <span>1</span>
-          </li>
-          <li><img src="./assets/images/icon-house.svg" alt="" />The house</li>
-          <li><img src="./assets/images/icon-pin.svg" alt="" />Around town</li>
-          <li>
-            <img
-              src="./assets/images/icon-breakfast-outline.svg"
-              alt=""
-            />Breakfast
-          </li>
-          <li><img src="./assets/images/icon-mail.svg" alt="" />Messages</li>
-        </ul>
-        <div>
-          <img src="./assets/images/icon-weather.svg" alt="" />
-          <p>TODAY IN CASSIS</p>
-          <data value="27">27°</data>
-          <p>Sunny · light breeze</p>
-        </div>
-        <p>EST. 1987</p>
-        <p>MAISON SOLEIL · 12 RUE DES OLIVIERS · CASSIS</p>
-        <p>© 2026 MAISON SOLEIL</p>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">
+          <img src="./assets/images/icon-menu.svg" alt="" class="icon-open"/>
+          <img src="./assets/images/icon-close.svg" alt="" class="icon-close"/>
+        </label>
       </nav>
+      <ul>
+        <li>
+          <div><img src="./assets/images/icon-bed.svg" alt="" /><p>Your stay</p></div>
+          <span>1</span>
+        </li>
+        <li><div><img src="./assets/images/icon-house.svg" alt="" /><p>The house</p></div><div></div></li>
+        <li><div><img src="./assets/images/icon-pin.svg" alt="" /><p>Around town</p></div><div></div></li>
+        <li>
+          <div><img
+            src="./assets/images/icon-breakfast-outline.svg" alt=""/><p>Breakfast</p></div><div></div>
+        </li>
+        <li><div><img src="./assets/images/icon-mail.svg" alt="" /><p>Messages</p></div><div></div></li>
+      </ul>
+      <div class="weather">
+        <p>TODAY IN CASSIS</p>
+        <data value="27">27°</data>
+        <p>Sunny · light breeze</p>
+      </div>
+      <p>EST. 1987</p>
+      <p>MAISON SOLEIL · 12 RUE DES OLIVIERS · CASSIS</p>
+      <p>© 2026 MAISON SOLEIL</p>
     </header>
     <main>
       <p class="hero-p">BOOKING · CONFIRMED</p>
