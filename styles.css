@@ -449,12 +449,12 @@ main {
   color: hsl(33, 17%, 41%);
 }
 
-.receipt div:nth-of-type(4) date {
+.receipt div:nth-of-type(4) time {
   font-size: 2rem;
   font-family: Fraunces, sans-serif;
 }
 
-.receipt div:nth-of-type(5) date {
+.receipt div:nth-of-type(5) time {
   font-family: DM Sans, sans-serif;
   font-size: 0.7rem;
   color: hsl(33, 22%, 20%);
@@ -812,7 +812,7 @@ footer p {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1439px) {
   body {
     display: grid;
     grid-template-columns: 17rem 1fr;
